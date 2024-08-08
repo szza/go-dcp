@@ -1,6 +1,8 @@
 module github.com/Trendyol/go-dcp
 
-go 1.20
+go 1.21
+
+toolchain go1.21.6
 
 retract (
 	v1.2.17
@@ -11,6 +13,8 @@ require (
 	github.com/ansrivas/fiberprometheus/v2 v2.6.1
 	github.com/asaskevich/EventBus v0.0.0-20200907212545-49d423059eef
 	github.com/couchbase/gocbcore/v10 v10.5.0
+	github.com/docker/docker v27.0.3+incompatible
+	github.com/docker/go-connections v0.5.0
 	github.com/gofiber/fiber/v2 v2.52.5
 	github.com/google/uuid v1.6.0
 	github.com/json-iterator/go v1.1.12
@@ -40,8 +44,6 @@ require (
 	github.com/cpuguy83/dockercfg v0.3.1 // indirect
 	github.com/davecgh/go-spew v1.1.1 // indirect
 	github.com/distribution/reference v0.6.0 // indirect
-	github.com/docker/docker v27.0.3+incompatible // indirect
-	github.com/docker/go-connections v0.5.0 // indirect
 	github.com/docker/go-units v0.5.0 // indirect
 	github.com/emicklei/go-restful/v3 v3.11.0 // indirect
 	github.com/felixge/httpsnoop v1.0.4 // indirect
